@@ -1,0 +1,129 @@
+/* General Body Styling */
+body {
+  min-width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff; /* Pure white background */
+  color: #000000; /* Deep black text */
+}
+
+/* Header Section */
+#header h1 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+#header p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Input Fields */
+#site_name {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000; /* Strong black border */
+  border-radius: 0; /* Sharp corners for a modern look */
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+/* Block Button */
+#block {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000;
+  border-radius: 0;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.2s, color 0.2s;
+  display: block;
+}
+
+#block:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Alert Messages */
+#alert {
+  color: #666; /* Gray for alerts to keep the focus on black/white */
+  font-size: 0.75rem;
+  margin-top: 10px;
+  height: 1.2rem;
+  text-align: center;
+}
+
+/* List Section */
+#list {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+#list p {
+  font-size: 0.75rem;
+  color: #000;
+}
+
+#block\ count {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+/* Individual List Item Cards */
+li {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+.title {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+/* Delete Button (Outline style) */
+#delete {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#delete:hover {
+  background-color: #000;
+  color: #fff;
+}
