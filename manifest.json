@@ -1,0 +1,27 @@
+{
+    "name": "My Site Blocker",
+    "description": "a chrome extensino that allow the user to block other website", 
+    "version": "1.0", 
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentscript.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "action": {
+        "default_title": "My Site Blocker",
+        "default_popup": "popup/Blocker.html",
+        "defaulf_icon": {
+            "16": "assets/lock.png",
+            "32": "assets/lock.png",
+            "48": "assets/lock.png",
+            "128": "assets/lock.png"
+        }
+    },
+    "permissions": [ "storage" , "tabs"]
+}
