@@ -1,5 +1,3 @@
-Here is the complete project documentation formatted in Markdown. You can copy and paste this directly into a file named README.md in your project folder.
-
 🛑 Pro Site Blocker
 A robust Chrome Extension designed to eliminate distractions by preventing access to specific websites. This project uses a Hybrid Detection Engine to ensure blocking is instant, reliable, and bypass-resistant.
 
